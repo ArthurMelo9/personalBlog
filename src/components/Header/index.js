@@ -14,6 +14,8 @@ const Header = (props) => {
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/aboutMe">About Me</NavLink>
                 <NavLink to="/contactMe">Contact Me</NavLink>
+                <NavLink to="/logIn">Login</NavLink>
+
             </nav>
             <div className="social">
                 Social Media Links

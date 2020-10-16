@@ -9,6 +9,7 @@ import Post from './containers/Posts';
 import AboutMe from './containers/AboutMe';
 import Links from './containers/Links';
 import Gallery from './containers/Gallery';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/aboutMe" component={AboutMe} />
         <Route path="/links" component={Links} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/logIn" component={Login} />
       </div>
     </Router>
 
