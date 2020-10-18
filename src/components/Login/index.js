@@ -30,7 +30,7 @@ const Login = (props) => {
 
             {
                 loggedIn === true ?
-                    <p>Welcome Arthur! What do you have for us today? Add a new post...</p> : null
+                    <p>Welcome  Arthur! What do you have for us today? Add a new post...</p> : null
             }
 
 
