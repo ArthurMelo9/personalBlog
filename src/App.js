@@ -10,6 +10,7 @@ import AboutMe from './containers/AboutMe';
 import Links from './containers/Links';
 import Gallery from './containers/Gallery';
 import Login from './components/Login';
+import CreateBlogPost from './components/CreateBlogPost';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/links" component={Links} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/logIn" component={Login} />
+        <Route path="/createblogpost" exact component={CreateBlogPost} />
       </div>
     </Router>
 

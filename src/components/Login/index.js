@@ -24,6 +24,7 @@ const Login = (props) => {
         event.preventDefault();
         if (username === 'Arthur' && password === '123456')
             setLoggedIn(true)
+        window.location = "createblogpost";
     }
     return (
         <div className="logInBox">
