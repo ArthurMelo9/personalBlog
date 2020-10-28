@@ -1,8 +1,8 @@
  {
-   "post":[  
+   "post":  [
     {
         "id": "1",
-        "title": "My first blog post",
+        "title": "Trauma!- Learning React from scratch...",
         "author": "Nana Kwame",
         "category":"Inspirational",
         "date": "October 19,2020",
@@ -15,7 +15,7 @@
 
     {
         "id": "2",
-        "title": "My second blog post",
+        "title": "Dream big; it is possible after all",
         "author": "Nana Kwame",
         "category":"Health",
         "date": "November 3,2020",
@@ -27,7 +27,7 @@
 
     {
         "id": "3",
-        "title": "My third blog post",
+        "title": "The journey so far",
         "author": "Nana Kwame",
         "category":"Fiction",
         "date": "December 19,2020",
@@ -39,7 +39,7 @@
 
     {
         "id": "4",
-        "title": "My fourth blog post",
+        "title": "We get to laugh at the end- haha!",
         "author": "Nana Kwame",
         "category":"Lifestyle",
         "date": "December 29,2020",

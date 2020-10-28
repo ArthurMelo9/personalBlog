@@ -11,6 +11,7 @@ import Links from './containers/Links';
 import Gallery from './containers/Gallery';
 import Login from './components/Login';
 import CreateBlogPost from './components/CreateBlogPost';
+import Newpostform from './containers/Posts/Newpostform';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/logIn" component={Login} />
         <Route path="/createblogpost" exact component={CreateBlogPost} />
+        <Route path="/newpost" exact>
+          <Newpostform />
+        </Route>
       </div>
     </Router>
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from '../UI/Card';
 import blogPost from '../../data/Posts.json';
 import './style.css';
+import Counter from '../../containers/Posts/voteCounter';
 
 
 /**
@@ -50,6 +51,7 @@ const BlogPost = (props) => {
                 <div className="postContent">
                     <h3>{post.title} </h3>
                     <p>{post.content}</p>
+                    <Counter />
                 </div>
             </Card>
         </div>
