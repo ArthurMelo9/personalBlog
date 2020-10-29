@@ -4,7 +4,8 @@ import Card from '../../components/UI/Card';
 import RecentPost from './RecentPost';
 import './style.css';
 
-const Home = props => {
+
+const Home = () => {
 
     const galleryHeight = 450;
     const galleryWidth = 100;
@@ -18,7 +19,9 @@ const Home = props => {
 
     return (
         <div>
+
             <Card>
+
                 <div className="galleryPost" /*style={galleryStyle}*/ >
                     <section style={{ width: '70%', overflow: 'hidden', height: '450px' }} >
                         <div>

@@ -5,6 +5,8 @@ import Button from "react-bootstrap/Button"
 import { postArray } from "./PostArray"; //Import postArray from PostArray.js
 import moment from "moment"
 
+
+
 const Newpostform = () =>{
 
     const [title, setTitle] = useState('');
@@ -40,6 +42,7 @@ const Newpostform = () =>{
     }
 
     return (
+        
             <Form onSubmit={handleSubmit} >
 
                 <FormGroup>
@@ -56,6 +59,7 @@ const Newpostform = () =>{
 
                 <FormGroup>
                     <Button as='input' type="submit" value="Create New Post" variant="primary"/>
+                  
                 </FormGroup>  
 
             </Form>
